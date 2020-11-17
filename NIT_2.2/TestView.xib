@@ -11,11 +11,33 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TestView" customModule="NIT_2_2" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <rect key="frame" x="0.0" y="0.0" width="250" height="83"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Текст (Text)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCb-ja-qdX">
+                    <rect key="frame" x="16" y="18" width="143" height="46"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pgt-46-10D">
+                    <rect key="frame" x="185" y="26" width="51" height="31"/>
+                </switch>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="141" y="93"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="pgt-46-10D" secondAttribute="bottom" constant="26" id="AUX-mR-mJR"/>
+                <constraint firstItem="vCb-ja-qdX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="HOt-Sx-Skr"/>
+                <constraint firstItem="vCb-ja-qdX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="THv-aX-tAo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vCb-ja-qdX" secondAttribute="trailing" priority="900" constant="91" id="iRI-Lc-bYw"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pgt-46-10D" secondAttribute="trailing" constant="16" id="jFR-xH-EkF"/>
+                <constraint firstItem="pgt-46-10D" firstAttribute="leading" secondItem="vCb-ja-qdX" secondAttribute="trailing" constant="26" id="oF7-nD-tqN"/>
+                <constraint firstItem="pgt-46-10D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="26" id="sHa-17-kjl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="vCb-ja-qdX" secondAttribute="bottom" constant="19" id="uBh-UD-DdX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="224.63768115942031" y="99.441964285714278"/>
         </view>
     </objects>
     <resources>

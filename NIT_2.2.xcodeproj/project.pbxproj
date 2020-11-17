@@ -15,8 +15,8 @@
 		EE00147225645DA000A4E670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE00147025645DA000A4E670 /* LaunchScreen.storyboard */; };
 		EE00147D25645DA100A4E670 /* NIT_2_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00147C25645DA100A4E670 /* NIT_2_2Tests.swift */; };
 		EE00148825645DA100A4E670 /* NIT_2_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00148725645DA100A4E670 /* NIT_2_2UITests.swift */; };
-		EE00149925645E7300A4E670 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00149825645E7300A4E670 /* TestView.swift */; };
 		EE00149E25645F0900A4E670 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE00149D25645F0900A4E670 /* TestView.xib */; };
+		EE0014A325646DB500A4E670 /* BladeRunner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE0014A225646DB500A4E670 /* BladeRunner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		EE00148325645DA100A4E670 /* NIT_2.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIT_2.2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00148725645DA100A4E670 /* NIT_2_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIT_2_2UITests.swift; sourceTree = "<group>"; };
 		EE00148925645DA100A4E670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE00149825645E7300A4E670 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		EE00149D25645F0900A4E670 /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		EE0014A225646DB500A4E670 /* BladeRunner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BladeRunner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,9 @@
 				EE00146725645D9F00A4E670 /* SceneDelegate.swift */,
 				EE00146925645D9F00A4E670 /* ViewController.swift */,
 				EE00146B25645D9F00A4E670 /* Main.storyboard */,
-				EE00149825645E7300A4E670 /* TestView.swift */,
 				EE00149D25645F0900A4E670 /* TestView.xib */,
 				EE00146E25645DA000A4E670 /* Assets.xcassets */,
+				EE0014A225646DB500A4E670 /* BladeRunner.jpg */,
 				EE00147025645DA000A4E670 /* LaunchScreen.storyboard */,
 				EE00147325645DA000A4E670 /* Info.plist */,
 			);
@@ -237,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0014A325646DB500A4E670 /* BladeRunner.jpg in Resources */,
 				EE00149E25645F0900A4E670 /* TestView.xib in Resources */,
 				EE00147225645DA000A4E670 /* LaunchScreen.storyboard in Resources */,
 				EE00146F25645DA000A4E670 /* Assets.xcassets in Resources */,
@@ -265,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE00149925645E7300A4E670 /* TestView.swift in Sources */,
 				EE00146A25645D9F00A4E670 /* ViewController.swift in Sources */,
 				EE00146625645D9F00A4E670 /* AppDelegate.swift in Sources */,
 				EE00146825645D9F00A4E670 /* SceneDelegate.swift in Sources */,
